@@ -4,7 +4,10 @@ import GarcomDashboard from './GarcomDashboard.jsx';
 import ComandaList from './ComandaList.jsx';
 import LancarPedidos from './LancarPedidos.jsx';
 
-const api = axios.create({ baseURL: 'http://localhost:3000' });
+const api = axios.create({
+  baseURL: 'https://dce8-200-201-116-46.ngrok-free.app',
+});
+
 
 export default function GarcomPage() {
   const [activeTab, setActiveTab] = useState('dashboard');
