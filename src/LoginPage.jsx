@@ -3,8 +3,9 @@ import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/users',
-});
+    // Atualizado para o link ngrok; note que a rota "/users" permanece, pois seu backend provavelmente espera isso.
+    baseURL: 'https://dce8-200-201-116-46.ngrok-free.app/users',
+  });
 
 function LoginPage() {
     const [cpf, setCpf] = useState('');
