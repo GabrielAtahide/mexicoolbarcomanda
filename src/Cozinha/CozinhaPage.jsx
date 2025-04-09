@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 // Configuração do axios com URL base e headers padrão
 const api = axios.create({ 
-  baseURL: 'https://dce8-200-201-116-46.ngrok-free.app',
+  baseURL: 'https://5e7a-200-201-116-46.ngrok-free.app',
   headers: {
     'Content-Type': 'application/json'
   }

@@ -4,9 +4,8 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const api = axios.create({
-  baseURL: 'https://dce8-200-201-116-46.ngrok-free.app',
+  baseURL: 'https://5e7a-200-201-116-46.ngrok-free.app',
 });
-
 
 function RegistrationForm() {
     const [userType, setUserType] = useState('garcom');
