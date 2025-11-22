@@ -1,6 +1,6 @@
-Comanda Digital
+Mexicool Bar Comanda
 
-Sistema de comanda digital desenvolvido em JavaScript, Node.js, Express, MySQL/Supabase e Vite.
+Sistema de comanda digital desenvolvido em JavaScript, Node.js, Express, MySQL/Supabase e Vite para o meu antigo restaurante chamado Méxicool Bar.
 O projeto permite que garçons enviem pedidos para a cozinha, acompanhem o status e fechem a conta da mesa.
 
 
